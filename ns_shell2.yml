@@ -1,5 +1,5 @@
 ---
-- hosts: citrix_adc
+- hosts: adc
   remote_user: nsroot
   connection: ssh_citrix_adc
   gather_facts: False
